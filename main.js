@@ -119,6 +119,16 @@ $('.slider-items').slick({
     slidesToShow: 1,
     adaptiveHeight: true
   });
+  
+  $('.theme_logo_slider').slick({
+    dots: false,
+    arrows: false,
+    infinite: true,
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  });
 
 
 // Theme color picker 
