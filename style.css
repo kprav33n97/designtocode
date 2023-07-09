@@ -1,6 +1,6 @@
 /*
 Theme Name: kp97
-Theme URI: https://wp-themes.com/
+Theme URI: https://github.com/kprav33n97/designtocode
 Author: K Praveen Kumar
 Author URI: https://github.com/kprav33n97
 Description: Theme to learn coding and design modern websites.
@@ -697,9 +697,9 @@ body.boxed-layout .site {
   margin: 0 30px;
 }
 
-.header-main .container {
+/* .header-main .container {
   max-width: 100%;
-}
+} */
 
 .toggle_btn .btn:hover {
   background: #f2f3f4;
@@ -707,7 +707,7 @@ body.boxed-layout .site {
 }
 
 #nav {
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
@@ -753,11 +753,22 @@ body.boxed-layout .site {
   font-size: 24px;
   font-weight: 600;
   letter-spacing: 2.1px;
+  position: relative;
 }
 
-.main-navigation li a:hover {
-  text-decoration: none;
-  color: var(--theme-link-color);
+.main-navigation li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: var(--theme-primary-color);
+  bottom: -15px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-navigation li a:hover:before {
+  opacity: 1;
 }
 
 .main-navigation li.current_page_item > a {
@@ -2251,15 +2262,15 @@ p {
 
 /* contact form starts  */
 .contact_form_container {
-  width: 400px;
+  width: 750px;
   margin: auto;
   padding: 50px;
   background: var(--theme-primary-color);
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  border-radius: 10px;
+  color: #fff;
+  border-radius: 30px;
 }
 
 .inputBox {
