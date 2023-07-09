@@ -3,11 +3,11 @@ Theme Name: kp97
 Theme URI: https://github.com/kprav33n97/designtocode
 Author: K Praveen Kumar
 Author URI: https://github.com/kprav33n97
-Description: Theme to learn coding and design modern websites.
+Description: Theme to learn coding and design modern websites, try new features, create custom components.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: theme
+Text Domain: theme-designtocode 
 Domain Path: /languages
 Tested up to: 5.8.2
 Requires PHP: 5.2
@@ -699,10 +699,6 @@ body.boxed-layout .site {
   margin: 0 30px;
 }
 
-/* .header-main .container {
-  max-width: 100%;
-} */
-
 .toggle_btn .btn:hover {
   background: #f2f3f4;
   color: #000;
@@ -721,7 +717,7 @@ body.boxed-layout .site {
 }
 
 .active_navbar {
-  max-height: 50vh !important;
+  max-height: 55vh !important;
 }
 
 .main-navigation {
@@ -756,21 +752,6 @@ body.boxed-layout .site {
   font-weight: 600;
   letter-spacing: 2.1px;
   position: relative;
-}
-
-.main-navigation li a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 5px;
-  background-color: var(--theme-primary-color);
-  bottom: -15px;
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-}
-
-.main-navigation li a:hover:before {
-  opacity: 1;
 }
 
 .main-navigation li.current_page_item > a {
@@ -1404,16 +1385,19 @@ ol.wp-block-latest-comments {
 /* Global Variables */
 :root {
   --theme-primary-color: #1877f2 !important;
-  /* --theme-primary-color: var(--clr-card-bg)!important; */
+  --theme-primary-color: #087ea4 !important;
   --theme-secondary-color: #000;
-  /* --theme-secondary-color: var(--clr-heading); */
   --theme-light-color: #f2f4f8;
-  /* --theme-light-color: var(--clr-body-bg); */
   --theme-dark-color: #000;
+  --theme-button-color1: #087ea4;
+  --theme-button-color2: #000;
+  /* Theme Switcher  */
+  /* --theme-primary-color: var(--clr-card-bg)!important; */
+  /* --theme-secondary-color: var(--clr-heading); */
   /* --theme-dark-color: var(--clr-heading); */
-  --theme-button-color1: #1877f2;
+  /* --theme-light-color: var(--clr-body-bg); */
+  /* --theme-button-color1: #1877f2; */
   /* --theme-button-color1: var(--clr-body-bg); */
-  --theme-button-color2: #111;
   /* --theme-button-color2: var(--clr-heading); */
   --theme-gradient: linear-gradient(
     90deg,
@@ -1667,6 +1651,7 @@ p {
   font-weight: bold;
   font-family: "poppins";
   letter-spacing: 1px;
+  color: #000;
 }
 
 .site-logo span {

@@ -1,3 +1,2 @@
 # kp97
-
-Sample website to learn coding and experiment new things.
+Sample website to experiment new features & create custom components.

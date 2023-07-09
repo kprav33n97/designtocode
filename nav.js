@@ -5,7 +5,5 @@ window.onload = function navMenu() {
     let collapse = document.querySelector("#nav .collapse")
     toggle.addEventListener('click', function(event){
         collapse.classList.toggle('active_navbar')
-
     })
-
 }
