@@ -102,6 +102,9 @@
     .main-navigation ul ul a {
         padding: 10px 20px;
     }
+    .theme-logos-silder {
+        padding-top: 0;
+    }
 }
 
 @media (max-width: 767.98px) {

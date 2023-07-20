@@ -9,7 +9,6 @@
 	  arrows: false,
 	  autoplay: true,
       autoplaySpeed: 2000,
-	  adaptiveHeight: true,
 	  responsive: [
 	  	{
 	      breakpoint: 993,
@@ -29,7 +28,6 @@
 	});
   // Slider 
 	$('.slider-items').slick({
-	  adaptiveHeight: true,	
 	  infinite: true,
 	  slidesToShow: 1,
 	  slidesToScroll: 1,

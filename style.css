@@ -694,8 +694,6 @@ body.boxed-layout .site {
 .header-main {
   background-color: #fff;
   padding: 30px 0;
-  justify-content: center;
-  align-items: center;
   margin: 0 30px;
 }
 
@@ -711,7 +709,7 @@ body.boxed-layout .site {
   left: 0;
   padding: 1rem 1.5rem;
   flex-direction: column;
-  background: #f2f3f4;
+  background: #f4f6f8;
   border-radius: 8px;
   z-index: 2;
 }
@@ -2499,8 +2497,8 @@ h3 {
   animation: spinner 2s infinite linear;
   transform-style: preserve-3d;
   position: absolute;
-  left: 30px;
-  top: 30px;
+  left: 60px;
+  top: 60px;
 }
 
 .spinner > div {
@@ -2577,3 +2575,47 @@ h3 {
   max-width: 650px;
 }
 
+.summary_btn {
+  background: #e3edf7;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+      -6px -6px 10px -1px rgba(255,255,255,0.7);
+  border: 1px solid rgba(0,0,0,0);
+  cursor: pointer;
+  transition: transform 0.5s;
+  width: 62px;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.summary_btn:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+	      inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+	      -0.5px -0.5px 0px rgba(255,255,255,1),
+	      0.5px 0.5px 0px rgba(0,0,0,0.15),
+	      0px 12px 10px -10px rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.1);
+  transform: translateY(0.5em);
+  background-color: transparent;
+}
+
+.summary_btn svg {
+  transition: transform 0.5s;
+}
+
+.summary_btn:hover svg {
+  transform: scale(0.9);
+  fill: #333333;
+}
+
+.summary_social_links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.summary_heading {
+  margin-bottom: 8px;
+}
