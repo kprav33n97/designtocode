@@ -1421,10 +1421,6 @@ body {
   background-color: #f5f5f5;
 }
 
-.slider_btn {
-  margin-top: 40px;
-}
-
 .slider_btn a {
   border: 3px solid;
   padding: 12px 35px;
@@ -1547,6 +1543,10 @@ p {
   margin-left: 80px;
 }
 
+.relative {
+  position: relative;
+}
+
 .play-btn {
   background: var(--theme-primary-color);
   border-radius: 50%;
@@ -1616,6 +1616,7 @@ p {
 .logo-footer h2 {
   position: relative;
   overflow: hidden;
+  max-width: 120px;
 }
 
 .logo-footer h2:before {
@@ -2329,7 +2330,7 @@ p {
 }
 
 /* Theme picker CSS  */
-:root {
+/* :root {
   --clr-body-bg: hsl(0 0% 90%);
   --clr-card-bg: hsl(0 0% 100%);
   --clr-text: hsl(0 0% 15%);
@@ -2392,9 +2393,9 @@ h3 {
   position: absolute;
   white-space: nowrap;
   width: 1px;
-}
+} */
 
-.color-picker > fieldset {
+/* .color-picker > fieldset {
   border: 0;
   display: flex;
   gap: 2rem;
@@ -2488,7 +2489,7 @@ h3 {
   --clr-card-bg: hsl(209 50% 5%);
   --clr-text: hsl(209 50% 90%);
   --clr-heading: hsl(209 50% 80%);
-}
+} */
 
 .spinner {
   width: 80px;
@@ -2497,6 +2498,9 @@ h3 {
   --clr-alpha: rgb(255, 255, 255, 0.1);
   animation: spinner 2s infinite linear;
   transform-style: preserve-3d;
+  position: absolute;
+  left: 30px;
+  top: 30px;
 }
 
 .spinner > div {
@@ -2562,3 +2566,14 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+.my_summary_image img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+} 
+
+.summary_text {
+  max-width: 650px;
+}
+
