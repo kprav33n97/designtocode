@@ -221,4 +221,7 @@
     #nav {
         position: absolute;
     }
+    .summary_social_links {
+        margin-bottom: 30px;
+    }
 }
