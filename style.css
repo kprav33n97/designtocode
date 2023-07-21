@@ -2325,7 +2325,10 @@ p {
   }
   .services-item p {
     max-width: 280px;
-  }
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
 
 /* Theme picker CSS  */
