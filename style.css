@@ -2318,17 +2318,12 @@ p {
 
 /* contact form ends  */
 
-@media (max-width: 768px) {
-  .services-item {
-    display: grid;
-    place-items: center;
-  }
-  .services-item p {
-    max-width: 280px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.slider_btn .theme_btn {
+  background: #000;
 }
+
+.slider_btn .theme_btn:hover {
+  background: var(--theme-primary-color);
 }
 
 /* Theme picker CSS  */
