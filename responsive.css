@@ -218,4 +218,7 @@
     .contact_form_container {
         width: 100%;
     }
+    #nav {
+        position: absolute;
+    }
 }
