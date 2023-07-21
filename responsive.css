@@ -215,4 +215,7 @@
     .wave_loading_effect h2 {
         margin-left: 25px;
     }
+    .contact_form_container {
+        width: 100%;
+    }
 }

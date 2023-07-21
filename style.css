@@ -3,7 +3,7 @@ Theme Name: kp97
 Theme URI: https://github.com/kprav33n97/designtocode
 Author: K Praveen Kumar
 Author URI: https://github.com/kprav33n97
-Description: Theme to learn coding and design modern websites, try new features, create custom components.
+Description: We build websites that are responsive for all users across all devices, so you can connect more quickly and easily with all your clients and prospects. Our sites work equally well and look equally beautiful on an iPhone, Android, desktop, or tablet device, because we know delivering a stellar experience to every customer matters to you.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -1382,21 +1382,12 @@ ol.wp-block-latest-comments {
 
 /* Global Variables */
 :root {
-  --theme-primary-color: #1877f2 !important;
   --theme-primary-color: #087ea4 !important;
   --theme-secondary-color: #000;
   --theme-light-color: #f2f4f8;
   --theme-dark-color: #000;
   --theme-button-color1: #087ea4;
   --theme-button-color2: #000;
-  /* Theme Switcher  */
-  /* --theme-primary-color: var(--clr-card-bg)!important; */
-  /* --theme-secondary-color: var(--clr-heading); */
-  /* --theme-dark-color: var(--clr-heading); */
-  /* --theme-light-color: var(--clr-body-bg); */
-  /* --theme-button-color1: #1877f2; */
-  /* --theme-button-color1: var(--clr-body-bg); */
-  /* --theme-button-color2: var(--clr-heading); */
   --theme-gradient: linear-gradient(
     90deg,
     var(--theme-button-color1),
@@ -1707,6 +1698,16 @@ p {
   box-shadow: var(--box-shadow);
   padding: 3rem;
   border-radius: 1.5rem;
+}
+
+.skill_item {
+  box-shadow: var(--box-shadow);
+  padding: 3rem;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .services-item i {
@@ -2498,7 +2499,7 @@ h3 {
   transform-style: preserve-3d;
   position: absolute;
   left: 60px;
-  top: 60px;
+  bottom: 0;
 }
 
 .spinner > div {
