@@ -1515,6 +1515,11 @@ section {
   font-size: calc(1.2rem + 2vw);
 }
 
+.slider_btn .theme_btn:before,
+.slider_btn .theme_btn:after{
+  display: none; 
+}
+
 p {
   font-weight: 400;
   color: #000;
@@ -1796,6 +1801,7 @@ p {
 }
 
 .theme-banner {
+  position: relative;
   padding: 120px 0;
   animation: changebg 10s linear infinite;
   color: white;
@@ -2496,8 +2502,8 @@ h3 {
   animation: spinner 2s infinite linear;
   transform-style: preserve-3d;
   position: absolute;
-  left: 60px;
-  bottom: 0;
+  right: 60px;
+  bottom: 60px;
 }
 
 .spinner > div {
