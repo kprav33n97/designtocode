@@ -1500,7 +1500,7 @@ section {
 }
 
 .theme-section-title p {
-  max-width: 600px;
+  max-width: 750px;
   width: 100%;
   margin: 20px auto auto auto;
 }
@@ -1693,6 +1693,7 @@ p {
   align-items: center;
   border: 1px solid;
   position: relative;
+  flex-shrink: 0;
 }
 
 .lets-connect h2 {
@@ -1800,12 +1801,16 @@ p {
   background: #f2f3f477;
 }
 
-.theme-banner {
+.theme-banner .container {
   position: relative;
+}
+
+.theme-banner {
   padding: 120px 0;
   animation: changebg 10s linear infinite;
   color: white;
 }
+
 
 @keyframes changebg {
   0% {
@@ -2502,8 +2507,8 @@ h3 {
   animation: spinner 2s infinite linear;
   transform-style: preserve-3d;
   position: absolute;
-  right: 60px;
-  bottom: 60px;
+  right: 0;
+  bottom: 0;
 }
 
 .spinner > div {
@@ -2608,6 +2613,8 @@ h3 {
 
 .summary_btn svg {
   transition: transform 0.5s;
+  width: 30px;
+  height: 30px;
 }
 
 .summary_btn:hover svg {
