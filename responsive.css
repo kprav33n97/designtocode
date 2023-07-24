@@ -256,4 +256,11 @@
         right: 0;
         bottom: 0;
     }
+    .theme-banner {
+        padding-bottom: 120px;
+    }
+    .spinner {
+        right: 30px;
+        bottom: -90px;
+    }
 }
