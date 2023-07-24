@@ -225,6 +225,7 @@
     }
     .theme-banner {
         padding-bottom: 60px;
+        overflow-x: hidden;
     }
     .theme-banner {
         padding: 60px 0;
@@ -234,7 +235,7 @@
         place-items: center;
     }
     .services-item p {
-        max-width: 280px;
+        max-width: 300px;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -243,5 +244,16 @@
        width: 40px;
        height: 40px;
        margin-right: 20px;
+    }
+    .services-item h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 469px) {
+    .spinner {
+        right: 0;
+        bottom: 0;
     }
 }
