@@ -2631,3 +2631,7 @@ h3 {
 .summary_heading {
   margin-bottom: 8px;
 }
+
+.skill_item_desc {
+  font-size: 24px;
+}

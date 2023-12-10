@@ -42,8 +42,12 @@
         font-size: 1.8em;
         position: absolute;
         right: 0;
-        top: 0;
         color: var(--theme-primary-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 50%;
+        transform: translateY(-50%);
     }
     .main-navigation ul {
         list-style: none;
