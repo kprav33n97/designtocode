@@ -1,2 +1,2 @@
 # kp97
-Portfolio website to showcase skills & experience.
+Portfolio website.

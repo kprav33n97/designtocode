@@ -261,6 +261,27 @@
         margin: auto;
         margin-bottom: 30px;
     }
+    .summary_heading {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 575px) {
+    .welcome-expo-caption h2 {
+        font-size: 16px;
+        top: 42%;
+    }
+    .welcome-expo-image img {
+        width: calc(100% - 80px);
+        margin-left: 80px;
+    }
+    .my_summary {
+        padding-top: 100px !important;
+    }
+    .welcome-expo-image::before {
+        height: calc(100% + 80px);
+        top: -40px;
+    }
 }
 
 @media (max-width: 469px) {
