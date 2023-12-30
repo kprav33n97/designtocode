@@ -1382,11 +1382,11 @@ ol.wp-block-latest-comments {
 
 /* Global Variables */
 :root {
-  --theme-primary-color: #087ea4 !important;
+  --theme-primary-color: #3700D8 !important;
   --theme-secondary-color: #000;
   --theme-light-color: #f2f4f8;
   --theme-dark-color: #000;
-  --theme-button-color1: #087ea4;
+  --theme-button-color1: #3700D8;
   --theme-button-color2: #000;
   --theme-gradient: linear-gradient(
     90deg,
@@ -1704,6 +1704,10 @@ p {
   box-shadow: var(--box-shadow);
   padding: 3rem;
   border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .skill_item {
@@ -1814,7 +1818,7 @@ p {
 
 @keyframes changebg {
   0% {
-    background-color: #1877f2;
+    background-color: #3700D8;
   }
 
   20% {
@@ -1826,7 +1830,7 @@ p {
   }
 
   60% {
-    background-color: blue;
+    background-color: #1877f2;
   }
 
   80% {
@@ -1834,7 +1838,7 @@ p {
   }
 
   100% {
-    background-color: #1877f2;
+    background-color: #3700D8;
   }
 }
 
@@ -2582,7 +2586,8 @@ h3 {
 } 
 
 .summary_text {
-  max-width: 650px;
+  max-width: 600px;
+  width: 100%;
 }
 
 .summary_btn {
@@ -2634,4 +2639,56 @@ h3 {
 
 .skill_item_desc {
   font-size: 24px;
+}
+.my_summary.relative {
+  padding-top: 150px;
+}
+.welcome-expo-image {
+  position: relative;
+  z-index: 1;
+  max-width: 735px;
+  line-height: 0;
+}
+.welcome-expo-image::before {
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: calc(100% + 140px);
+  background: url('https://demo.wp-eventmanager.com/wpem-expo/wp-content/themes/wpem-expo/assets/images/welcome-expo-before.png');
+  background-size: cover;
+  left: 0;
+  top: -70px;
+  z-index: -1;
+  border-radius: 1.5rem;
+}
+.welcome-expo-image img {
+  object-fit: cover;
+  max-width: 500px;
+  width: calc(100% - 150px);
+  margin-left: 150px;
+}
+.welcome-expo-caption h2 {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: rotate(-90deg);
+  z-index: 9;
+}
+.welcome-expo-caption h2:before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 80px;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%) rotate(90deg);
+  background: url('https://demo.wp-eventmanager.com/wpem-expo/wp-content/themes/wpem-expo/assets/images/zigzag.svg');
+  background-size: cover;
 }

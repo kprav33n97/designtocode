@@ -41,13 +41,12 @@
     .toggle_btn .btn {
         font-size: 1.8em;
         position: absolute;
+        top: 13px;
         right: 0;
         color: var(--theme-primary-color);
         display: flex;
         align-items: center;
         justify-content: center;
-        top: 50%;
-        transform: translateY(-50%);
     }
     .main-navigation ul {
         list-style: none;
@@ -117,6 +116,10 @@
     .spinner {
         right: 90px;
         bottom: -40px;
+    }
+    .wpem-expo-welcome .column {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }
 
@@ -252,6 +255,11 @@
     .services-item h3 {
         font-size: 16px;
         text-align: center;
+    }
+    .skill_item {
+        max-width: 350px;
+        margin: auto;
+        margin-bottom: 30px;
     }
 }
 
