@@ -262,7 +262,13 @@
         margin-bottom: 30px;
     }
     .summary_heading {
-        margin-top: 60px;
+        margin-top: 80px;
+    }
+    .spinner {
+        bottom: -100px;
+    }
+    .theme-banner {
+        padding-bottom: 150px;
     }
 }
 
