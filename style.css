@@ -1768,6 +1768,14 @@ p {
   margin-right: 24px;
 }
 
+.footer-links li a:hover {
+  color: var(--theme-primary-color);
+}
+
+.footer-col-links li:hover {
+  color: var(--theme-primary-color);
+}
+
 .copyright p {
   color: white;
   opacity: 0.7;
