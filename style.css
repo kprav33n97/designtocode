@@ -698,7 +698,7 @@ body.boxed-layout .site {
 }
 
 .toggle_btn .btn:hover {
-  background: #f2f3f4;
+  background: #fff;
   color: #000;
 }
 
@@ -985,6 +985,19 @@ blockquote p:last-child {
   background: var(--theme-secondary-color);
   opacity: 1;
 }
+
+.footer-col-links li {
+  transition: 0.3s ease;
+}
+
+.footer-col-links h2 {
+  transition: 0.3s ease;
+}
+
+.footer-col-links h2:hover {
+  color: var(--theme-primary-color);
+}
+
 
 /*---------------------------------------------------
 ##   Widgets
@@ -2031,6 +2044,7 @@ p {
   top: 0;
   animation: load 2s linear infinite;
   transition: all 0.3s;
+  margin: 20px;
 }
 
 .center_loading span:nth-child(2) {
@@ -2203,9 +2217,11 @@ p {
 }
 
 .searchBox:hover .searchText {
-    width: 420px;
+    max-width: 420px;
+    width: 100%;
     padding: 30px 20px !important;
     border-radius: 8px;
+    color: #000;
 }
 
 .searchBox:hover .searchBtn {
