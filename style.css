@@ -2010,14 +2010,16 @@ p {
 }
 
 .center_loading {
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
   height: 400px;
   background: transparent;
   position: relative;
 }
 
 .center_loading span {
-  width: 150px;
+  max-width: 150px;
+  width: 100%;
   height: 150px;
   border-radius: 20px;
   background: var(--theme-button-color1);
@@ -2284,7 +2286,8 @@ p {
 
 /* contact form starts  */
 .contact_form_container {
-  width: 750px;
+  max-width: 750px;
+  width: 100%;
   margin: auto;
   padding: 50px;
   background: var(--theme-primary-color);
