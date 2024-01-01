@@ -712,6 +712,7 @@ body.boxed-layout .site {
   background: #f4f6f8;
   border-radius: 8px;
   z-index: 2;
+  overflow: hidden;
 }
 
 .active_navbar {
@@ -2340,6 +2341,7 @@ p {
   font-size: 14px;
   border: 3px solid;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 /* contact form ends  */
