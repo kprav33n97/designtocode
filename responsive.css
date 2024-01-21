@@ -117,7 +117,7 @@
         right: 90px;
         bottom: -40px;
     }
-    .wpem-expo-welcome .column {
+    .wpem-portfolio-welcome .column {
         flex: 0 0 100%;
         max-width: 100%;
     }
@@ -273,18 +273,18 @@
 }
 
 @media (max-width: 575px) {
-    .welcome-expo-caption h2 {
+    .welcome-portfolio-caption h2 {
         font-size: 16px;
         top: 42%;
     }
-    .welcome-expo-image img {
+    .welcome-portfolio-image img {
         width: calc(100% - 80px);
         margin-left: 80px;
     }
     .my_summary {
         padding-top: 100px !important;
     }
-    .welcome-expo-image::before {
+    .welcome-portfolio-image::before {
         height: calc(100% + 80px);
         top: -40px;
     }

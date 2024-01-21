@@ -2510,31 +2510,31 @@ p {
 .my_summary.relative {
   padding-top: 150px;
 }
-.welcome-expo-image {
+.welcome-portfolio-image {
   position: relative;
   z-index: 1;
   max-width: 735px;
   line-height: 0;
 }
-.welcome-expo-image::before {
+.welcome-portfolio-image::before {
   content: "";
   position: absolute;
   width: 70%;
   height: calc(100% + 140px);
-  background: url('https://demo.wp-eventmanager.com/wpem-expo/wp-content/themes/wpem-expo/assets/images/welcome-expo-before.png');
+  background: url('https://demo.wp-eventmanager.com/wpem-portfolio/wp-content/themes/wpem-portfolio/assets/images/welcome-portfolio-before.png');
   background-size: cover;
   left: 0;
   top: -70px;
   z-index: -1;
   border-radius: 0;
 }
-.welcome-expo-image img {
+.welcome-portfolio-image img {
   object-fit: cover;
   max-width: 500px;
   width: calc(100% - 150px);
   margin-left: 150px;
 }
-.welcome-expo-caption h2 {
+.welcome-portfolio-caption h2 {
   font-weight: 600;
   font-size: 26px;
   line-height: 35px;
@@ -2548,7 +2548,7 @@ p {
   transform: rotate(-90deg);
   z-index: 9;
 }
-.welcome-expo-caption h2:before {
+.welcome-portfolio-caption h2:before {
   content: "";
   position: absolute;
   width: 6px;
@@ -2556,6 +2556,6 @@ p {
   bottom: -50px;
   left: 50%;
   transform: translateX(-50%) rotate(90deg);
-  background: url('https://demo.wp-eventmanager.com/wpem-expo/wp-content/themes/wpem-expo/assets/images/zigzag.svg');
+  background: url('https://demo.wp-eventmanager.com/wpem-portfolio/wp-content/themes/wpem-portfolio/assets/images/zigzag.svg');
   background-size: cover;
 }
