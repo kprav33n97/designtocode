@@ -262,7 +262,7 @@
         margin-bottom: 30px;
     }
     .summary_heading {
-        margin-top: 120px;
+        margin-top: 15px;
     }
     .spinner {
         bottom: -100px;
@@ -277,13 +277,7 @@
         font-size: 16px;
         top: 42%;
     }
-    .welcome-portfolio-image img {
-        width: calc(100% - 80px);
-        margin-left: 80px;
-    }
-    .my_summary {
-        padding-top: 100px !important;
-    }
+    
     .welcome-portfolio-image::before {
         height: calc(100% + 80px);
         top: -40px;

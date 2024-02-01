@@ -754,10 +754,11 @@ body.boxed-layout .site {
 }
 
 .main-navigation li.current_page_item > a {
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: var(--theme-gradient);
+  color: var(--theme-primary-color);
+}
+
+.main-navigation li a:hover {
+  color: var(--theme-primary-color);
 }
 
 .main-navigation ul ul {
@@ -2540,8 +2541,9 @@ p {
   top: 50%;
   transform: rotate(-90deg);
   z-index: 9;
-} */
-/* .welcome-portfolio-caption h2:before {
+} 
+
+.welcome-portfolio-caption h2:before {
   content: "";
   position: absolute;
   width: 6px;
@@ -2556,4 +2558,12 @@ p {
 .welcome-portfolio-image img {
   max-width: 639px;
   width: 100%;
+}
+
+.my_summary.relative {
+  padding-bottom: 0;
+}
+
+section#my_work {
+  padding-top: 0;
 }
