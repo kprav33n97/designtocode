@@ -2555,4 +2555,5 @@ p {
 
 .welcome-portfolio-image img {
   max-width: 639px;
+  width: 100%;
 }
