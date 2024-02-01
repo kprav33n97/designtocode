@@ -2507,10 +2507,8 @@ p {
 .skill_item_desc {
   font-size: 24px;
 }
-.my_summary.relative {
-  padding-top: 150px;
-}
-.welcome-portfolio-image {
+
+/* .welcome-portfolio-image {
   position: relative;
   z-index: 1;
   max-width: 735px;
@@ -2527,14 +2525,9 @@ p {
   top: -70px;
   z-index: -1;
   border-radius: 0;
-}
-.welcome-portfolio-image img {
-  object-fit: cover;
-  max-width: 500px;
-  width: calc(100% - 150px);
-  margin-left: 150px;
-}
-.welcome-portfolio-caption h2 {
+} */
+
+/* .welcome-portfolio-caption h2 {
   font-weight: 600;
   font-size: 26px;
   line-height: 35px;
@@ -2547,8 +2540,8 @@ p {
   top: 50%;
   transform: rotate(-90deg);
   z-index: 9;
-}
-.welcome-portfolio-caption h2:before {
+} */
+/* .welcome-portfolio-caption h2:before {
   content: "";
   position: absolute;
   width: 6px;
@@ -2558,4 +2551,8 @@ p {
   transform: translateX(-50%) rotate(90deg);
   background: url('https://demo.wp-eventmanager.com/wpem-portfolio/wp-content/themes/wpem-portfolio/assets/images/zigzag.svg');
   background-size: cover;
+} */
+
+.welcome-portfolio-image img {
+  max-width: 639px;
 }
