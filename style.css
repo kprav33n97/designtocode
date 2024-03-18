@@ -1,27 +1,3 @@
-/*
-Theme Name: kp97
-Theme URI: https://github.com/kprav33n97/designtocode
-Author: K Praveen Kumar
-Author URI: https://github.com/kprav33n97
-Description: We build websites that are responsive for all users across all devices, so you can connect more quickly and easily with all your clients and prospects. Our sites work equally well and look equally beautiful on an iPhone, Android, desktop, or tablet device, because we know delivering a stellar experience to every customer matters to you.
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: theme-designtocode 
-Domain Path: /languages
-Tested up to: 5.8.2
-Requires PHP: 5.2
-Tags:  entertainment, portfolio, e-commerce, one-column, two-columns, full-width-template, left-sidebar, right-sidebar, editor-style, custom-header, custom-background, custom-logo, custom-menu, custom-colors, rtl-language-support, featured-images, threaded-comments, translation-ready, sticky-post, microformats,theme-options
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-kp97 is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
-*/
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap");
 
 /* Normalize */
@@ -2508,40 +2484,6 @@ p {
 .skill_item_desc {
   font-size: 24px;
 }
-
-/* .welcome-portfolio-image {
-  position: relative;
-  z-index: 1;
-  max-width: 735px;
-  line-height: 0;
-}
-.welcome-portfolio-image::before {
-  content: "";
-  position: absolute;
-  width: 70%;
-  height: calc(100% + 140px);
-  background: url('https://demo.wp-eventmanager.com/wpem-portfolio/wp-content/themes/wpem-portfolio/assets/images/welcome-portfolio-before.png');
-  background-size: cover;
-  left: 0;
-  top: -70px;
-  z-index: -1;
-  border-radius: 0;
-} */
-
-/* .welcome-portfolio-caption h2 {
-  font-weight: 600;
-  font-size: 26px;
-  line-height: 35px;
-  text-align: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #ffffff;
-  position: absolute;
-  left: -20px;
-  top: 50%;
-  transform: rotate(-90deg);
-  z-index: 9;
-} 
 
 .welcome-portfolio-caption h2:before {
   content: "";
