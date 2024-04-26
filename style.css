@@ -684,7 +684,7 @@ body.boxed-layout .site {
 }
 
 #nav {
-  position: fixed;
+  position: sticky;
   width: 100%;
   top: 0;
   left: 0;
@@ -1672,6 +1672,8 @@ p {
   justify-content: center;
   align-items: center;
   list-style: none;
+  padding: 0;
+  gap: 30px;
 }
 
 .social-icons li:hover a {
@@ -1679,7 +1681,6 @@ p {
 }
 
 .social-icons li {
-  margin-right: 30px;
   width: 60px;
   height: 60px;
   background-color: transparent;
