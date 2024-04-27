@@ -697,7 +697,7 @@ body.boxed-layout .site {
 }
 
 .active_navbar {
-  max-height: 55vh !important;
+  max-height: 100vh !important;
 }
 
 .main-navigation {
@@ -974,10 +974,15 @@ blockquote p:last-child {
 
 .footer-col-links h2 {
   transition: 0.3s ease;
+  cursor: pointer;
 }
 
 .footer-col-links h2:hover {
   color: var(--theme-primary-color);
+}
+
+.footer-col-links li {
+  cursor: pointer;
 }
 
 
@@ -1705,6 +1710,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .skill_item {
