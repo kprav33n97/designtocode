@@ -1887,14 +1887,15 @@ p {
   color: white;
 }
 
-.footer-bottom p {
+.footer-bottom p, .footer-bottom a {
   color: white;
   opacity: 0.7;
 }
 
-.footer-bottom a {
+.footer-bottom span {
   color: var(--theme-button-color1);
   margin-left: 10px;
+  cursor: pointer;
 }
 
 /*works start*/
