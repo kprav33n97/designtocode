@@ -1791,9 +1791,10 @@ p {
 
 .agency-theme-demo img,
 .demo-item img {
-  height: 420px;
   width: 100%;
+  height: 420px;
   object-fit: cover;
+  border-radius: 8pxs;
   box-shadow: var(--box-shadow);
 }
 
