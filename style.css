@@ -469,6 +469,10 @@ textarea:focus {
 input:-webkit-autofill {
   background-color: transparent !important;
 }
+
+input:-internal-autofill-selected {
+  background-color: transparent !important;
+}
 /* Menus  */
 
 /* Global Classes  */
