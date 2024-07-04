@@ -93,7 +93,7 @@ form .btn {
 }
 
 form .btn:hover {
-  background: transparent;
+  background-color: transparent;
 }
 
 .btn,
@@ -319,7 +319,7 @@ address {
 }
 
 pre {
-  background: #eee;
+  background-color: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
   font-size: 15px;
   font-size: 0.9375rem;
@@ -347,7 +347,7 @@ acronym {
 
 mark,
 ins {
-  background: #fff9c0;
+  background-color: #fff9c0;
   text-decoration: none;
 }
 
@@ -466,6 +466,9 @@ textarea:focus {
   border-bottom: 3px solid white;
 }
 
+input:-webkit-autofill {
+  background-color: transparent !important;
+}
 /* Menus  */
 
 /* Global Classes  */
@@ -689,7 +692,7 @@ body.boxed-layout .site {
 }
 
 .toggle_btn .btn:hover {
-  background: #fff;
+  background-color: #fff;
   color: #000;
 }
 
@@ -700,7 +703,7 @@ body.boxed-layout .site {
   left: 0;
   padding: 1rem 1.5rem;
   flex-direction: column;
-  background: #f4f6f8;
+  background-color: #f4f6f8;
   border-radius: 8px;
   z-index: 2;
   overflow: hidden;
@@ -759,7 +762,7 @@ body.boxed-layout .site {
   left: -999em;
   z-index: 99999;
   min-width: 200px;
-  background: var(--theme-content-color);
+  background-color: var(--theme-content-color);
   border-top: 2px solid var(--theme-primary-color);
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.04);
   text-align: left;
@@ -810,14 +813,14 @@ body.boxed-layout .site {
 
 .menu-toggle {
   border: 0;
-  background: transparent;
+  background-color: transparent;
   display: none;
   cursor: pointer;
   margin: 0px;
 }
 
 .menu-toggle:hover {
-  background: transparent;
+  background-color: transparent;
 }
 
 .bar1,
@@ -925,51 +928,10 @@ blockquote p:last-child {
   margin-bottom: 0;
 }
 
-.error-404 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  text-align: center;
-}
-
-.error-404 h1 {
-  font-size: 180px;
-  line-height: normal;
-}
-
-.error-404 h2 {
-  font-size: 40px;
-  line-height: normal;
-}
-
-.site-footer {
-  background: var(--theme-content-color);
-}
-
 .footer-top .container {
   border-bottom: 1px solid rgba(0, 0, 0, 0.16);
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-#goTop {
-  display: block;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  color: var(--theme-button-text-color);
-  font-size: 20px;
-  opacity: 0.7;
-  background: var(--theme-secondary-color);
-  padding: 8px 0;
-  height: 44px;
-  width: 44px;
-  border-radius: 50%;
-  text-align: center;
-}
-
-#goTop:hover {
-  background: var(--theme-secondary-color);
-  opacity: 1;
 }
 
 .footer-col-links li {
@@ -1412,7 +1374,7 @@ body {
 }
 
 .theme_btn {
-  background: var(--theme-button-color1);
+  background-color: var(--theme-button-color1);
   border: 0;
   color: #fff;
   font-weight: 600;
@@ -1460,7 +1422,7 @@ body {
 }
 
 .theme_btn:hover {
-  background: var(--theme-button-color2);
+  background-color: var(--theme-button-color2);
   color: #fff;
 }
 
@@ -1530,7 +1492,7 @@ p {
 }
 
 .play-btn {
-  background: var(--theme-primary-color);
+  background-color: var(--theme-primary-color);
   border-radius: 50%;
   animation: animatewa 2s linear infinite;
   cursor: pointer;
@@ -1546,7 +1508,7 @@ p {
 }
 
 .play-btn.whatsapp-green {
-  background: #25d366;
+  background-color: #25d366;
 }
 
 .play-btn i {
@@ -1583,7 +1545,7 @@ p {
 }
 
 ::selection {
-  background: var(--theme-primary-color);
+  background-color: var(--theme-primary-color);
   color: #fff;
 }
 
@@ -1669,7 +1631,7 @@ p {
 }
 
 .social-icons li:hover {
-  background: var(--theme-primary-color);
+  background-color: var(--theme-primary-color);
   border-color: var(--theme-primary-color);
   color: #fff;
 }
@@ -1744,7 +1706,7 @@ p {
 
 .theme-footer-main {
   padding: 80px 0;
-  background: #000;
+  background-color: #000;
   color: white;
 }
 
@@ -1808,7 +1770,7 @@ p {
 .theme-banner,
 .theme-services-section,
 .lets-connect {
-  background: #f2f3f477;
+  background-color: #f2f3f477;
 }
 
 .theme-banner .container {
@@ -1952,7 +1914,7 @@ p {
   top: 0;
   left: 0;
   height: 100%;
-  background: var(--wpem-theme-gradient);
+  background-color: var(--wpem-theme-gradient);
 }
 
 .theme-progress-label {
@@ -2002,7 +1964,7 @@ p {
   width: 100%;
   height: 600px;
   position: relative;
-  background: #f2f3f4;
+  background-color: #f2f3f4;
   display: grid;
   place-items: center;
   border-radius: 20px;
@@ -2012,7 +1974,7 @@ p {
   max-width: 400px;
   width: 100%;
   height: 400px;
-  background: transparent;
+  background-color: transparent;
   position: relative;
 }
 
@@ -2021,7 +1983,7 @@ p {
   width: 100%;
   height: 150px;
   border-radius: 20px;
-  background: var(--theme-button-color1);
+  background-color: var(--theme-button-color1);
   color: #fff;
   position: absolute;
   z-index: 0;
@@ -2094,7 +2056,7 @@ p {
   left: 0;
   top: 0;
   color: #fff;
-  background: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -2236,7 +2198,7 @@ p {
   width: 350px;
   min-width: 200px;
   height: 400px;
-  background: #f2f3f4;
+  background-color: #f2f3f4;
   flex-direction: column;
   text-align: center;
   position: relative;
@@ -2249,7 +2211,7 @@ p {
 
 .card_number {
   position: absolute;
-  background: var(--theme-primary-color);
+  background-color: var(--theme-primary-color);
   color: white;
   width: 100%;
   height: 100%;
@@ -2292,7 +2254,7 @@ p {
   width: 100%;
   margin: auto;
   padding: 50px;
-  background: var(--theme-primary-color);
+  background-color: var(--theme-primary-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2313,7 +2275,7 @@ p {
   border: none;
   border-bottom: 2px solid #fff;
   border-radius: 0;
-  background: transparent;
+  background-color: transparent;
   outline: none;
 }
 
@@ -2335,7 +2297,7 @@ p {
 }
 
 .contact_form_container input[type="submit"] {
-  background: transparent;
+  background-color: transparent;
   outline: none;
   color: #fff;
   padding: 8px 24px;
@@ -2348,11 +2310,11 @@ p {
 /* contact form ends  */
 
 .slider_btn .theme_btn {
-  background: #000;
+  background-color: #000;
 }
 
 .slider_btn .theme_btn:hover {
-  background: var(--theme-primary-color);
+  background-color: var(--theme-primary-color);
 }
 
 .spinner {
@@ -2443,7 +2405,7 @@ p {
 }
 
 .summary_btn {
-  background: #e3edf7;
+  background-color: #e3edf7;
   border-radius: 10px;
   box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
       -6px -6px 10px -1px rgba(255,255,255,0.7);
