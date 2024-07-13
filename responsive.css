@@ -180,9 +180,6 @@
         text-align: center;
         line-height: normal;
     }
-    .footer-bottom .container {
-        flex-direction: column;
-    }
     .theme_btn {
         padding: 10px 20px;
         font-size: 14px;
@@ -271,6 +268,9 @@
     }
     .theme-banner {
         padding-bottom: 150px;
+    }
+    .footer-bottom .text-right {
+        text-align: center;
     }
 }
 

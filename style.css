@@ -1558,7 +1558,7 @@ p {
 /* Design Starts  */
 
 .main-menu-container {
-  margin-right: 60px;
+  margin: 0 30px;
 }
 
 .logo-footer h2 {
